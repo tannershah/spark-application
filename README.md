@@ -1,16 +1,16 @@
-# spark_application
+# Spark — Mini Arcade (Flutter + Firebase)
 
-A new Flutter project.
+**Live demo:** https://tanshah-flutter-spark-app.web.app
 
-## Getting Started
+## What this app does
+Spark is a Flutter + Firebase mini-arcade with user authentication.  
+Features include:
+- Email/password authentication (create account, sign in, reset password via email).
+- Two games:
+  - **Hangman** (tracks wins)
+  - **Tic Tac Toe** (2-player local and 1-player vs CPU; tracks wins vs CPU)
+- Win statistics are stored per-user using Firebase.
+- Simple, mobile-friendly UI for quick play and account management.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Quick view
+To try the hosted app: open https://tanshah-flutter-spark-app.web.app in any browser, create an account, then play!
