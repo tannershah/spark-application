@@ -12,5 +12,7 @@ Features include:
 - Win statistics are stored per-user using Firebase.
 - Simple, mobile-friendly UI for quick play and account management.
 
+### Note: All code written by me located in 'lib' file
+
 ## Quick view
 To try the hosted app: open https://tanshah-flutter-spark-app.web.app in any browser, create an account, then play!
