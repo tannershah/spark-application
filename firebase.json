@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "ios": {
+        "default": {
+          "projectId": "tanshah-flutter-spark-app",
+          "appId": "1:355407220640:ios:ed245bfc133537d1f39ec5",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tanshah-flutter-spark-app",
+          "configurations": {
+            "ios": "1:355407220640:ios:ed245bfc133537d1f39ec5",
+            "web": "1:355407220640:web:c22a18205a68ed87f39ec5"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
